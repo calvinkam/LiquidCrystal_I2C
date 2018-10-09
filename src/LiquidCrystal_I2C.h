@@ -40,7 +40,7 @@
   #endif
   #include <inttypes.h>
 #endif
-
+#include <Wire.h>
 // commands
 #define LCD_CLEARDISPLAY 0x01
 #define LCD_RETURNHOME 0x02
